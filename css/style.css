@@ -65,25 +65,31 @@ body {
 }
 
 .nav__button {
-  padding: 0.75rem 1rem;
+  padding: 1rem;
   margin: 0.5rem;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-decoration: none;
-  font-weight: 500;
-  text-transform: uppercase;
+  /* font-weight: 500;
+  text-transform: uppercase; */
 
   border-radius: 3rem;
 
-  color: var(--clr-light-gray);
-  background-color: var(--clr-purple);
+  color: var(--clr-gray);
+  background-color: var(--clr-light-gray);
 }
 
 .nav__button:first-of-type {
   margin-left: 4rem;
 }
+
 .nav__button:hover {
   cursor: pointer;
-  background-color: var(--clr-light-purple);
+  background-color: var(--clr-gray);
+  color: var(--clr-light-gray);
 }
 
 .main {
