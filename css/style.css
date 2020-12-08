@@ -13,7 +13,7 @@
   --clr-gray: #393e46;
   --clr-dark-gray: #222831;
 
-  --clr-nav__button: var(--clr-purple);
+  --clr-nav-btn: var(--clr-purple);
 }
 
 body {
